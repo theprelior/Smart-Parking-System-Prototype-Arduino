@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Otopark.exe" version="1.0.0.1" publicKeyToken="a4dc6e199811dfe1" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="220-2201160_icon-parking-google-search-car-icon (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Otopark" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Otopark.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Otopark.exe" size="1376720">
+      <assemblyIdentity name="Otopark" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+gkeWbl+pn6esBNInO3GIS4TY3CWSqg0ctc8LlFLSVM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="220-2201160_icon-parking-google-search-car-icon (1).ico" size="2702">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NUmTuuv+act5oEGRsiMsZxfN762zqsnUr6LZUIM9joI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Otopark.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=THEPRELIOR-NB\ACER" issuerKeyHash="37402dd7edca2e113754d2307b461a1d586d8c72" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mA6mBkth14S6GwKmiEjxNfyZqmORN6jMmp5xJ7th/EE=</DigestValue></Reference></SignedInfo><SignatureValue>NtTRxtYCWwexiE8Fb901HkwYGUSiSg89q72VXnuiZYaQDyOUS97vJje4+dmdyNLY23FOHFPMGOeisVTYU8POp7Pr3UFeIXCJvmNCw2j3pYCj4ZqovKDgnh/eUow80hrp8rtQwjBhET2f3Wu2YF5A23utpy1KuqJVY//rMjhUCiU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t3nSKfv8fSUZMM/MQ9paQxq1G8TrDuo2BFTn0C5PRZMXZY03E9c5CIb7v/SAerBW5eq9E/oj7fO2PXaChzWqaok4iiytI1yF0lLzDlncRNLXelqn1S2gGXlfQFdkJvQCXJdkArnTvwRKSgNJlVqwXG66QK04QJCF5RdHHqi280k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="41fc61bb27719e9acca8379163aa99fc35f14888a6021bba84d7614b06a60e98" Description="" Url=""><as:assemblyIdentity name="Otopark.exe" version="1.0.0.1" publicKeyToken="a4dc6e199811dfe1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=THEPRELIOR-NB\ACER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>l9JGkplChP7XHTDWrqMh98SH6AQLPcYQpNCWDVdIve4=</DigestValue></Reference></SignedInfo><SignatureValue>jiqsalMVHRtviJBqI8wzZGG+AN/jyv4Wj8SGYFd44nADGvfeE/7pk4ZmS0a+jI92Lwk6Kog2Z8IvynXlz3itgo2ZHbvvrANGz9C0e0FoX3fekBsst9TOYs3tHaj5UZ92p8yXoED+ibObQo9tzUu7T4k61Nf/ff6gLhNCOeJn/w0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t3nSKfv8fSUZMM/MQ9paQxq1G8TrDuo2BFTn0C5PRZMXZY03E9c5CIb7v/SAerBW5eq9E/oj7fO2PXaChzWqaok4iiytI1yF0lLzDlncRNLXelqn1S2gGXlfQFdkJvQCXJdkArnTvwRKSgNJlVqwXG66QK04QJCF5RdHHqi280k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQVI1bhbZUtLFFU2OrVSwgtDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAVABIAEUAUABSAEUATABJAE8AUgAtAE4AQgBcAEEAQwBFAFIwHhcNMjEwNjA2MTU1ODAyWhcNMjIwNjA2MjE1ODAyWjAvMS0wKwYDVQQDHiQAVABIAEUAUABSAEUATABJAE8AUgAtAE4AQgBcAEEAQwBFAFIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALd50in7/H0lGTDPzEPaWkMatRvE6w7qNgRU59AuT0WTF2WNNxPXOQiG+7/0gHqwVuXqvRP6I+3ztj12goc1qmqJOIosrSNchdJS8w5Z3ETS13pap9UtoBl5X0BXZCb0AlyXZAK5078ESkoDSZVasFxuukCtOECQheUXRx6otvNJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfzVwmQ+fUMfzW+t1Sye2Sm2iH/+JELnRUOM0BzOIZF7rf/Sin0qfFogyMnMA4fWC/XgdQfB8l121WqRXtmpi0yqJEPgd7N7MWRZZt5nHG1Lr7tDzFM/GjrJiqYd1q05UGmLvUklx5CuAmOr922/r3I2lXYs8XQtDhM7nyfGwlH0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
